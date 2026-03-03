@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivesVIP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Cabeçalho ou logo -->
+        <header>
+            <h1>LivesVIP <span class="sigla">(LVP)</span></h1>
+        </header>
+        
+        <!-- Conteúdo principal com abas -->
+        <main id="content">
+            <!-- Aba padrão: Lives (vazia por agora) -->
+            <div id="aba-lives" class="aba active">
+                <p>Carregando lives... (Em breve thumbnails aqui)</p>
+            </div>
+            <div id="aba-match" class="aba">
+                <p>Carregando matches... (Em breve swipe aqui)</p>
+            </div>
+            <!-- Outras abas em manutenção -->
+        </main>
+        
+        <!-- Navbar inferior -->
+        <nav class="navbar">
+            <a href="#aba-lives" class="nav-item" data-aba="aba-lives">
+                <span class="icon">📺</span> Lives
+            </a>
+            <a href="#aba-match" class="nav-item" data-aba="aba-match">
+                <span class="icon">❤️</span> Match de Vídeo
+            </a>
+            <a href="pages/manutencao.html" class="nav-item">
+                <span class="icon">🌍</span> Países
+            </a>
+            <a href="pages/manutencao.html" class="nav-item">
+                <span class="icon">🔔</span> Novidades
+            </a>
+            <a href="pages/manutencao.html" class="nav-item">
+                <span class="icon">👤</span> Perfil
+            </a>
+        </nav>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
